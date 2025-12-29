@@ -421,7 +421,7 @@ data class Responses(
 
 Fabrikt is built with Gradle and requires an initialised git repository. The easiest way to build it is to clone the repo locally before executing the build command:
 ```
-git clone git@github.com:cjbooms/fabrikt.git
+git clone git@github.com:3point1four-159/fabrikt.git
 cd fabrikt/
 ./gradlew clean build
 ```
@@ -432,7 +432,7 @@ A utility function is available in [GeneratedCodeAsserter.kt](src/test/kotlin/co
 
 ### Publishing
 
-1. Go to [Release Tab](https://github.com/cjbooms/fabrikt/releases)
+1. Go to [Release Tab](https://github.com/3point1four-159/fabrikt/releases)
 2. Select `Draft a new release`.
 3. Set tag to a version greater than current using symantic versioning, anticipating whether the changes made could break builds.
 4. Click `Generate release notes`. Ensure that the tag and release version match.
