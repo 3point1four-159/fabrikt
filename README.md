@@ -434,8 +434,8 @@ A utility function is available in [GeneratedCodeAsserter.kt](src/test/kotlin/co
 
 1. Go to [Release Tab](https://github.com/3point1four-159/fabrikt/releases)
 2. Select `Draft a new release`.
-3. Set tag to a version greater than current using symantic versioning, anticipating whether the changes made could break builds.
+3. Set tag to a version greater than current using semantic versioning, anticipating whether the changes made could break builds.
 4. Click `Generate release notes`. Ensure that the tag and release version match.
-5. Click `Publish release` buttom at the bottom.
+5. Click `Publish release` button at the bottom.
 
 Github Actions will publish the deployment to [Sonatype Central](https://central.sonatype.com/publishing/deployments). You must then log in to Sonatype and decide to either release or drop that deployment. After 30 minutes or so, Maven Central will have indexed the promoted release.
